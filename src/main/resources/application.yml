@@ -5,3 +5,11 @@ server:
 spring:
   profiles:
     active: staging
+
+#jasypt加密的密匙
+jasypt:
+  encryptor:
+    password: EbfYkitulv73I2p0mXI50JMXoaxZTKJ7
+
+my:
+  school: ENC(yBGWL2o86Klxy89gzw6P+G+/YFCo6zXlSK+UmKYJsVI=)
