@@ -74,7 +74,21 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
         <appender-ref ref="appLogAppender"></appender-ref>
     </appender>
 
-
+    <!--日志异步到数据库 -->
+    <!--    <appender name="DB" class="ch.qos.logback.classic.db.DBAppender">-->
+    <!--        &lt;!&ndash;日志异步到数据库&ndash;&gt;-->
+    <!--        <connectionSource class="ch.qos.logback.core.db.DriverManagerConnectionSource">-->
+    <!--            <driverClass>com.mysql.jdbc.Driver</driverClass>-->
+    <!--            <url>jdbc:mysql://ali.hellowood.com.cn:3306/log?useSSL=false</url>-->
+    <!--            <user>root</user>-->
+    <!--            <password>ihaveapen*^@#</password>-->
+    <!--        </connectionSource>-->
+    <!--    </appender>-->
+    <!--    -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+    <!--    作者：呜呜呜啦啦啦-->
+    <!--    来源：CSDN-->
+    <!--    原文：https://blog.csdn.net/u013360850/article/details/79110822-->
+    <!--    版权声明：本文为博主原创文章，转载请附上博文链接！-->
     <!--日志导出的到 Logstash-->
     <!--    <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">-->
     <!--        <destination>127.0.0.1:4560</destination>-->
