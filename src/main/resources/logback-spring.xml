@@ -75,6 +75,18 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
     </appender>
 
 
+    <!--日志导出的到 Logstash-->
+    <!--    <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">-->
+    <!--        <destination>127.0.0.1:4560</destination>-->
+    <!--        <encoder chaset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder">-->
+    <!--            <customFields>{"appname":"SpringBootLog"}</customFields>-->
+    <!--        </encoder>-->
+    <!--    </appender>-->
+    <!--    -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+    <!--    作者：呜呜呜啦啦啦-->
+    <!--    来源：CSDN-->
+    <!--    原文：https://blog.csdn.net/u013360850/article/details/79110822-->
+    <!--    版权声明：本文为博主原创文章，转载请附上博文链接！-->
     <!--    日志入库-->
     <!--    <appender name="PROJECT-TASK" class="ch.qos.logback.classic.db.DBAppender">-->
     <!--        <connectionSource class="ch.qos.logback.core.db.DriverManagerConnectionSource">-->
